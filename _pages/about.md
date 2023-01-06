@@ -6,7 +6,7 @@ subtitle: <a href='#'>Georgia Tech</a>. ECE PhD Student.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: udaydp_enlarged.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
