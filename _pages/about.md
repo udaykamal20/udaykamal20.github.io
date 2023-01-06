@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. 1210 Francis ST. Contacts. Moto. Etc.
+subtitle: <a href='#'>Georgia Tech</a>. ECE PhD Student.
 
 profile:
   align: right
