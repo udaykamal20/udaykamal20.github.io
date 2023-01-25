@@ -42,3 +42,14 @@
   html={https://ieeexplore.ieee.org/abstract/document/9345465},
   publisher={IEEE}
 }
+
+@inproceedings{kamal2020lung,
+  title={Lung cancer tumor region segmentation using recurrent 3d-denseunet},
+  author={Kamal, Uday and Rafi, Abdul Muntakim and Hoque, Rakibul and Wu, Jonathan and Hasan, Md Kamrul},
+  abstract={The performance of a computer-aided automated diagnosis system of lung cancer from Computed Tomography (CT) volumetric images greatly depends on the accurate detection and segmentation of tumor regions. In this paper, we present Recurrent 3D-DenseUNet, a novel deep learning based architecture for volumetric lung tumor segmentation from CT scans. The proposed architecture consists of a 3D encoder block that learns to extract fine-grained spatial and coarse-grained temporal features, a recurrent block of multiple Convolutional Long Short-Term Memory (ConvLSTM) layers to extract fine-grained spatio-temporal information, and finally a 3D decoder block to reconstruct the desired volume segmentation masks from the latent feature space. The encoder and decoder blocks consist of several 3D-convolutional layers that are densely connected among themselves so that necessary feature aggregation can occur throughout the network. During prediction, we apply selective thresholding followed by morphological operation, on top of the network prediction, to better differentiate between tumorous and non-tumorous image-slices, which shows more promise than only thresholding-based approaches. We train and test our network on the NSCLC-Radiomics dataset of 300 patients, provided by The Cancer Imaging Archive (TCIA) for the 2018 IEEE VIP Cup. Moreover, we perform an extensive ablation study of different loss functions in practice for this task. The proposed network outperforms other state-of-the-art 3D segmentation architectures with an average dice score of 0.7228.},
+  booktitle={MICCAI Thoracic Image Analysis Workshop, },
+  year={2020},
+  preview={miccai.png},
+  selected={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9345465},
+}
