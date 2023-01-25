@@ -2,7 +2,7 @@ github_users:
   - udaykamal20
 
 github_repos:
-  - udaykamal20/Team_Spectrum
+  # - udaykamal20/Team_Spectrum
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
