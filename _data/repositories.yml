@@ -3,8 +3,14 @@ github_users:
 
 github_repos:
   - udaykamal20/Team_Spectrum
-  - udaykamal20/BUET_X
-  - udaykamal20/Team_Neurons
-  - udaykamal20/Matlab_GUI_for_Real_Time_Inverse_Kinematics_Simulation 
-  - udaykamal20/Dekhi_ki_hoi
-  - udaykamal20/QDARTS
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
+  # - udaykamal20/BUET_X
+  # - udaykamal20/Team_Neurons
+  # - udaykamal20/Matlab_GUI_for_Real_Time_Inverse_Kinematics_Simulation 
+  # - udaykamal20/Dekhi_ki_hoi
+  # - udaykamal20/QDARTS
