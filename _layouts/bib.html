@@ -29,7 +29,7 @@
           <div class="author">
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name%}
+            {%- if author.last contains site.scholar.last_name%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -87,14 +87,17 @@
               {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
             {%- endif -%}
             {%- if entry.year -%}
-              {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+              {%- if entry.mention -%}
+                {%- capture entryyear -%}{{ " " }}{{entry.year}}<font color="red"><strong>{{entry.mention}}</strong></font>{%- endcapture -%}
+              {%- else -%}
+                {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
             {%- endif -%}
-            </div>
+            <!-- </div>
             <div class="mention">
             {%- if entry.mention -%}
               {%- capture entrymention -%}<b>{{entry.mention}}</b>{%- endcapture -%}
             {%- endif -%}
-            </div>
+            </div> -->
             {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
             <div class="periodical">
               {{ periodical | strip }}
