@@ -90,7 +90,7 @@
             {%- endif -%}
             <div class="mention">
             {%- if entry.mention -%}
-              {%- capture entrymention -%}{{ " " }}<b>{{entry.mention}}</b>{%- endcapture -%}
+              <b>{{entry.mention}}</b>
             {%- endif -%}
             </div>
             {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
