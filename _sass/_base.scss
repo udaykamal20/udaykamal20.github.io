@@ -479,7 +479,7 @@ footer.sticky-bottom {
       }
       .mention {
         font-weight: bolder;
-        color: $red-color;
+        color: var(--global-mention-color);
       }
       .links {
         a.btn {
