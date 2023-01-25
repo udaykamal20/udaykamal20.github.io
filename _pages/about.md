@@ -22,4 +22,6 @@ Hi, I am Uday! I am a third year ECE PhD student at Georgia Tech, advised by [Pr
 
 My research interests lie broadly in building computationally efficient, intelligent perception-capable systems. I am also interested in Robot Learning, World Models, and Embodied AI. Currently, I'm working on memory-augmented spatiotemporal representation learning with an application towards event-based perception.
 
+Before starting my Ph.D., I finished my undergrad from Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/) where I have worked on several research projects related to Computer Vision (small object detection, and segmentation), ML-assisted medical image synthesis, and analysis. 
+
 Feel free to reach me at: uday[dot]kamal[at]gatech.edu
