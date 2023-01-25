@@ -47,9 +47,35 @@
   title={Lung cancer tumor region segmentation using recurrent 3d-denseunet},
   author={Kamal, Uday and Rafi, Abdul Muntakim and Hoque, Rakibul and Wu, Jonathan and Hasan, Md Kamrul},
   abstract={The performance of a computer-aided automated diagnosis system of lung cancer from Computed Tomography (CT) volumetric images greatly depends on the accurate detection and segmentation of tumor regions. In this paper, we present Recurrent 3D-DenseUNet, a novel deep learning based architecture for volumetric lung tumor segmentation from CT scans. The proposed architecture consists of a 3D encoder block that learns to extract fine-grained spatial and coarse-grained temporal features, a recurrent block of multiple Convolutional Long Short-Term Memory (ConvLSTM) layers to extract fine-grained spatio-temporal information, and finally a 3D decoder block to reconstruct the desired volume segmentation masks from the latent feature space. The encoder and decoder blocks consist of several 3D-convolutional layers that are densely connected among themselves so that necessary feature aggregation can occur throughout the network. During prediction, we apply selective thresholding followed by morphological operation, on top of the network prediction, to better differentiate between tumorous and non-tumorous image-slices, which shows more promise than only thresholding-based approaches. We train and test our network on the NSCLC-Radiomics dataset of 300 patients, provided by The Cancer Imaging Archive (TCIA) for the 2018 IEEE VIP Cup. Moreover, we perform an extensive ablation study of different loss functions in practice for this task. The proposed network outperforms other state-of-the-art 3D segmentation architectures with an average dice score of 0.7228.},
-  booktitle={MICCAI Thoracic Image Analysis Workshop, },
+  booktitle={MICCAI Workshop, },
   year={2020},
   preview={miccai.png},
   selected={true},
   html={https://ieeexplore.ieee.org/abstract/document/9345465},
 }
+
+@inproceedings{rafi2019application,
+  title={Application of DenseNet in Camera Model Identification and Post-processing Detection.},
+  author={Rafi, Abdul Muntakim and Kamal, Uday and Hoque, Rakibul and Abrar, Abid and Das, Sowmitra and Laganiere, Robert and Hasan, Md Kamrul and others},
+  booktitle={CVPR workshop, },
+  year={2019},
+  abstract={Camera model identification has earned paramount importance in the field of image forensics with an upsurge of digitally altered images which are constantly being shared through websites, media, and social applications. But, the task of identification becomes quite challenging if metadata are absent from the image and/or if the image has been post-processed. In this paper, we present a DenseNet pipeline to solve the problem of identifying the source camera-model of an image. Our approach is to extract patches of 256 x 256 from a labeled image dataset and apply augmentations, i.e., Empirical Mode Decomposition (EMD). We use this extended dataset to train a Neural Network with the DenseNet-201 architecture. We concatenate the output features for 3 different sizes (64x64, 128x128, 256x256) and pass them to a secondary network to make the final prediction. This strategy proves to be very robust for identifying the source camera model, even when the original image is post-processed. Our model has been trained and tested on the Forensic Camera-Model Identification Dataset provided for the IEEE Signal Processing (SP) Cup 2018. During testing we achieved an overall accuracy of 98.37%, which is the current state-of-the-art on this dataset using a single model. We used transfer learning and tested our model on the Dresden Database for Camera Model Identification, with an overall test accuracy of over 99% for 19 models. In addition, we demonstrate that the proposed pipeline is suit- able for other image-forensic classification tasks, such as, detecting the type of post-processing applied to an image with an accuracy of 96.66% - which indicates the generality of our approach.},
+  preview={cvprw.png},
+  selected={true},
+  html={https://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Rafi_Application_of_DenseNet_in_Camera_Model_Identification_and_Post-processing_Detection_CVPRW_2019_paper.pdf},
+}
+
+@article{ahmed2021dswe,
+  title={DSWE-Net: A deep learning approach for shear wave elastography and lesion segmentation using single push acoustic radiation force},
+  author={Ahmed, Shahed and Kamal, Uday and Hasan, Md Kamrul},
+  journal={Ultrasonics},
+  volume={110},
+  pages={106283},
+  year={2021},
+  publisher={Elsevier},
+  abstract={Ultrasound-based non-invasive elasticity imaging modalities have received significant consideration for tissue characterization over the last few years. Though substantial advances have been made, the conventional Shear Wave Elastography (SWE) methods still suffer from poor image quality in regions far from the push location, particularly those which rely on single focused ultrasound push beam to generate shear waves. In this study, we propose DSWE-Net, a novel deep learning-based approach that is able to construct Young’s modulus maps from ultrasonically tracked tissue velocity data resulting from a single acoustic radiation force (ARF) push. The proposed network employs a 3D convolutional encoder, followed by a recurrent block consisting of several Convolutional Long Short-Term Memory (ConvLSTM) layers to extract high-level spatio-temporal features from different time-frames of the input velocity data. Finally, a pair of coupled 2D convolutional decoder blocks reconstructs the modulus image and additionally performs inclusion segmentation by generating a binary mask. We also propose a multi-task learning loss function for end-to-end training of the network with 1260 data samples obtained from a simulation environment which include both bi-level and multi-level phantom structures. The performance of the proposed network is evaluated on 140 synthetic test data and the results are compared both qualitatively and quantitatively with that of the current state of the art method, Local Phase Velocity Based Imaging (LPVI). With an average SSIM of 0.90, RMSE of 0.10 and 20.69 dB PSNR, DSWE-Net performs much better on the imaging task compared to LPVI. Our method also achieves an average IoU score of 0.81 for the segmentation task which makes it suitable for localizing inclusions as well. In this initial study, we also show that our method gains an overall improvement of 0.09 in SSIM, 4.81 dB in PSNR, 2.02 dB in CNR, and 0.09 in RMSE over LPVI on a completely unseen set of CIRS tissue mimicking phantom data. This proves its better generalization capability and shows its potential for use in real-world clinical practice.},
+  preview={dswenet.png},
+  selected={true},
+  html={https://www.sciencedirect.com/science/article/pii/S0041624X20302213},
+}
+
