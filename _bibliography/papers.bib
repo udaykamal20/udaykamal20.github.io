@@ -43,6 +43,20 @@
   publisher={IEEE}
 }
 
+@article{ahmed2021dswe,
+  title={DSWE-Net: A deep learning approach for shear wave elastography and lesion segmentation using single push acoustic radiation force},
+  author={Ahmed, Shahed and Kamal, Uday and Hasan, Md Kamrul},
+  journal={Ultrasonics,},
+  volume={110},
+  pages={106283},
+  year={2021},
+  publisher={Elsevier},
+  abstract={Ultrasound-based non-invasive elasticity imaging modalities have received significant consideration for tissue characterization over the last few years. Though substantial advances have been made, the conventional Shear Wave Elastography (SWE) methods still suffer from poor image quality in regions far from the push location, particularly those which rely on single focused ultrasound push beam to generate shear waves. In this study, we propose DSWE-Net, a novel deep learning-based approach that is able to construct Young’s modulus maps from ultrasonically tracked tissue velocity data resulting from a single acoustic radiation force (ARF) push. The proposed network employs a 3D convolutional encoder, followed by a recurrent block consisting of several Convolutional Long Short-Term Memory (ConvLSTM) layers to extract high-level spatio-temporal features from different time-frames of the input velocity data. Finally, a pair of coupled 2D convolutional decoder blocks reconstructs the modulus image and additionally performs inclusion segmentation by generating a binary mask. We also propose a multi-task learning loss function for end-to-end training of the network with 1260 data samples obtained from a simulation environment which include both bi-level and multi-level phantom structures. The performance of the proposed network is evaluated on 140 synthetic test data and the results are compared both qualitatively and quantitatively with that of the current state of the art method, Local Phase Velocity Based Imaging (LPVI). With an average SSIM of 0.90, RMSE of 0.10 and 20.69 dB PSNR, DSWE-Net performs much better on the imaging task compared to LPVI. Our method also achieves an average IoU score of 0.81 for the segmentation task which makes it suitable for localizing inclusions as well. In this initial study, we also show that our method gains an overall improvement of 0.09 in SSIM, 4.81 dB in PSNR, 2.02 dB in CNR, and 0.09 in RMSE over LPVI on a completely unseen set of CIRS tissue mimicking phantom data. This proves its better generalization capability and shows its potential for use in real-world clinical practice.},
+  preview={dswenet.png},
+  selected={true},
+  html={https://www.sciencedirect.com/science/article/pii/S0041624X20302213},
+}
+
 @inproceedings{kamal2020lung,
   title={Lung cancer tumor region segmentation using recurrent 3d-denseunet},
   author={Kamal, Uday and Rafi, Abdul Muntakim and Hoque, Rakibul and Wu, Jonathan and Hasan, Md Kamrul},
@@ -65,17 +79,17 @@
   html={https://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Rafi_Application_of_DenseNet_in_Camera_Model_Identification_and_Post-processing_Detection_CVPRW_2019_paper.pdf},
 }
 
-@article{ahmed2021dswe,
-  title={DSWE-Net: A deep learning approach for shear wave elastography and lesion segmentation using single push acoustic radiation force},
-  author={Ahmed, Shahed and Kamal, Uday and Hasan, Md Kamrul},
-  journal={Ultrasonics},
-  volume={110},
-  pages={106283},
-  year={2021},
-  publisher={Elsevier},
-  abstract={Ultrasound-based non-invasive elasticity imaging modalities have received significant consideration for tissue characterization over the last few years. Though substantial advances have been made, the conventional Shear Wave Elastography (SWE) methods still suffer from poor image quality in regions far from the push location, particularly those which rely on single focused ultrasound push beam to generate shear waves. In this study, we propose DSWE-Net, a novel deep learning-based approach that is able to construct Young’s modulus maps from ultrasonically tracked tissue velocity data resulting from a single acoustic radiation force (ARF) push. The proposed network employs a 3D convolutional encoder, followed by a recurrent block consisting of several Convolutional Long Short-Term Memory (ConvLSTM) layers to extract high-level spatio-temporal features from different time-frames of the input velocity data. Finally, a pair of coupled 2D convolutional decoder blocks reconstructs the modulus image and additionally performs inclusion segmentation by generating a binary mask. We also propose a multi-task learning loss function for end-to-end training of the network with 1260 data samples obtained from a simulation environment which include both bi-level and multi-level phantom structures. The performance of the proposed network is evaluated on 140 synthetic test data and the results are compared both qualitatively and quantitatively with that of the current state of the art method, Local Phase Velocity Based Imaging (LPVI). With an average SSIM of 0.90, RMSE of 0.10 and 20.69 dB PSNR, DSWE-Net performs much better on the imaging task compared to LPVI. Our method also achieves an average IoU score of 0.81 for the segmentation task which makes it suitable for localizing inclusions as well. In this initial study, we also show that our method gains an overall improvement of 0.09 in SSIM, 4.81 dB in PSNR, 2.02 dB in CNR, and 0.09 in RMSE over LPVI on a completely unseen set of CIRS tissue mimicking phantom data. This proves its better generalization capability and shows its potential for use in real-world clinical practice.},
-  preview={dswenet.png},
+@article{kamal2019automatic,
+  title={Automatic traffic sign detection and recognition using SegU-Net and a modified Tversky loss function with L1-constraint},
+  author={Kamal, Uday and Tonmoy, Thamidul Islam and Das, Sowmitra and Hasan, Md Kamrul},
+  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS),},
+  volume={21},
+  number={4},
+  pages={1467--1479},
+  year={2019},
+  publisher={IEEE},
+  abstract={Traffic sign detection is a central part of autonomous vehicle technology. Recent advances in deep learning algorithms have motivated researchers to use neural networks to perform this task. In this paper, we look at traffic sign detection as an image segmentation problem and propose a deep convolutional neural network-based approach to solve it. To this end, we propose a new network, the SegU-Net, which we form by merging the state-of-the-art segmentation architectures-SegNet and U-Net to detect traffic signs from video sequences. For training the network, we use the Tversky loss function constrained by an L1 term instead of the intersection over union loss traditionally used to train segmentation networks. We use a separate network, inspired by the VGG-16 architecture, to classify the detected signs. The networks are trained on the challenge free sequences of the CURE-TSD dataset. Our proposed network outperforms the state-of-the-art object detection networks, such as the Faster R-CNN inception Resnet V2 and R-FCN Resnet 101, by a large margin and obtains a precision and recall of 94.60% and 80.21%, respectively, which is the current state of the art on this part of the dataset. In addition, the network is tested on the German Traffic Sign Detection Benchmark (GTSDB) dataset, where it achieves a precision and recall of 95.29% and 89.01%, respectively. This is on a par with the performance of the aforementioned object detection networks. These results prove the generalizability of the proposed architecture and its suitability for robust traffic sign detection in autonomous vehicles.},
+  preview={tits.png},
   selected={true},
-  html={https://www.sciencedirect.com/science/article/pii/S0041624X20302213},
+  html={https://ieeexplore.ieee.org/abstract/document/8700606},
 }
-
