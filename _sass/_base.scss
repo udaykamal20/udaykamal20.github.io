@@ -464,9 +464,6 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
-      .venue {
-        font-weight: bolder;
-      }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -479,6 +476,9 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
+      }
+      .venue {
+        font-weight: bolder;
       }
       .links {
         a.btn {
