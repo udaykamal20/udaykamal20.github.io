@@ -88,7 +88,7 @@
             {%- endif -%}
             {%- if entry.year -%}
               {%- if entry.mention -%}
-                {%- capture entryyear -%}{{ " " }}{{entry.year}}<font color=var(--global-mention-color)><strong>{{entry.mention}}</strong></font>{%- endcapture -%}
+                {%- capture entryyear -%}{{ " " }}{{entry.year}}<font color="#FF3636"><strong>{{entry.mention}}</strong></font>{%- endcapture -%}
               {%- else -%}
                 {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
               {%- endif -%}
