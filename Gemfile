@@ -22,5 +22,7 @@ end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
+    gem 'faraday-retry' # Added to address the warning
+
 end
 
