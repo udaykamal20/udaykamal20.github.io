@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-09-15 15:59:00-0400
+date: 2023-03-06 15:59:00-0400
 inline: true
 ---
 
-Serving as a reviewer of AAAI-23, ICLR-23, CVPR-23.
+I'll be joining [Amazon Robotics](https://www.amazon.science/research-areas/robotics) as an Applied Scientiest II intern in <del>summer</del> fall 2023! 
+

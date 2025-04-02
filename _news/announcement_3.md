@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2023-03-06 15:59:00-0400
+date: 2024-07-17 15:59:00-0400
 inline: true
 ---
 
-I'll be joining [Amazon Robotics](https://www.amazon.science/research-areas/robotics) as an Applied Scientiest II intern in <del>summer</del> fall 2023! 
-
+Our work on event-based dense representation with compute efficient adaptive update got accepted in **ECCV**!
